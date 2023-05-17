@@ -1,0 +1,5 @@
+# rust compiled machine code
+/target
+
+# wasm package generated via wasm-pack
+/pkg
