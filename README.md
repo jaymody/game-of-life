@@ -1,9 +1,9 @@
-Game of life built in Rust + WebAssembly.
+[Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) built in Rust + WebAssembly.
 
 Resources:
 - [Wasm By Example](https://wasmbyexample.dev/home.en-us.html)
-- [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 - [Rust and WebAssembly](https://rustwasm.github.io/docs/book/)
+- [The `wasm-bindgen` Guide](https://rustwasm.github.io/wasm-bindgen/)
 
 ### Usage
 This project requires:
