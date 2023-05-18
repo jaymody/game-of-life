@@ -3,3 +3,6 @@
 
 # wasm package generated via wasm-pack
 /pkg
+
+# vite generated dir
+/.vite

@@ -56,8 +56,7 @@ impl Universe {
         let top = if row == 0 { self.nrows - 1 } else { row - 1 };
         let bottom = if row >= self.nrows - 1 { 0 } else { row + 1 };
 
-        let mut count = 0;
-        for (i, j) in [
+        [
             (top, left),
             (top, col),
             (top, right),
@@ -66,13 +65,9 @@ impl Universe {
             (bottom, left),
             (bottom, col),
             (bottom, right),
-        ] {
-            if i == row && j == col {
-                continue;
-            }
-            count += self.cells[self.get_index(i, j)] as u32;
-        }
-
-        count
+        ]
+        .iter()
+        .map(|(i, j)| self.cells[self.get_index(*i, *j)] as u32)
+        .sum()
     }
 }

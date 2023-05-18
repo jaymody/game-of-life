@@ -10,7 +10,7 @@ This project requires:
 
 - `rust`: Language of choice to compile to wasm ([installation instructions](https://doc.rust-lang.org/book/ch01-01-installation.html)).
 - `wasm-pack`: Compiles rust code a wasm package we can use in javascript ([installation instructions](https://rustwasm.github.io/wasm-pack/installer/)).
-- `vite`: To bundle and serve our website (`npm install -g vite`).
+- `vite`: To bundle and serve the webpage (`npm install -g vite`).
 
 First, we compile the rust code to a wasm package via `wasm-pack`:
 
